@@ -1,7 +1,7 @@
 # p-value
 Assuming H0 is true, the probability of observing a test statistic
 **at least as extreme** as the one from the sample(observed value). We want to know how surprised the result is.
-如果你在赌场看到有人连续赢了8把,你想问的是"这么牛的连胜(8把、9把、10把...)有多罕见",而不是"恰好赢8把不多不少"有多罕见——因为赢9把、10把只会让你更加怀疑"这局有鬼",这些情况理应都算进"证据强度"里。
+Example:如果你在赌场看到有人连续赢了8把,你想问的是"这么牛的连胜(8把、9把、10把...)有多罕见",而不是"恰好赢8把不多不少"有多罕见——因为赢9把、10把只会让你更加怀疑"这局有鬼",这些情况理应都算进"证据强度"里。
  Small p-value ⇒ data
 is unlikely under H0 ⇒ reject H0 if p-value < threshold (α).
 
